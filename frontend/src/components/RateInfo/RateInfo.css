@@ -1,0 +1,44 @@
+#rate-info ul {
+  list-style-type: none;
+  margin-top: 2px;
+}
+
+#rate-info ul > li {
+  display: flex;
+  position: relative;
+  margin-bottom: 10px;
+}
+.user-info {
+  width: 130px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.user-info h5 {
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 1px;
+}
+
+.user-info span {
+  font-size: 11px;
+  color: #8d99ae;
+}
+
+.comment {
+  min-height: 70px;
+  margin-left: 150px;
+}
+.comment p {
+  line-height: 1.7;
+  color: #545454;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .comment p {
+    font-size: 11px;
+  }
+}

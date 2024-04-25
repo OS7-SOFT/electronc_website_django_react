@@ -1,0 +1,49 @@
+#bottom-header .links > a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-right: 30px;
+  padding-bottom: 3px;
+  font-size: 17px;
+  position: relative;
+  overflow: hidden;
+  transition: var(--main-duration);
+  cursor: pointer;
+}
+#bottom-header .links > a::after,
+#bottom-header .links > .active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color);
+  bottom: 0px;
+  transition: var(--main-duration);
+}
+
+#bottom-header .links > a::after {
+  left: -100%;
+}
+
+#bottom-header .links > a:hover {
+  color: var(--primary-color);
+}
+
+#bottom-header .links > a:hover::after {
+  left: 0;
+}
+
+#bottom-header .links > .active {
+  color: var(--primary-color);
+}
+#bottom-header .links > .active::after {
+  left: 0;
+}
+
+@media (max-width: 991px) {
+  #bottom-header .links > a {
+    color: white;
+    margin: 15px;
+    margin-inline: 5px;
+  }
+}

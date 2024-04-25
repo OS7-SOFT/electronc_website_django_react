@@ -1,0 +1,12 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul > li:not(:last-child) {
+  margin-right: 5px;
+}
+
+ul > li > i {
+  color: var(--primary-color);
+}

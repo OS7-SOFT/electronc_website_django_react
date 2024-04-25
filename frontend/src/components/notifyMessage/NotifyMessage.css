@@ -1,0 +1,28 @@
+#notify {
+  padding-block: 3px;
+  padding-inline: 9px;
+  margin-bottom: 19px;
+  box-shadow: 1px 1px 6px #bbbbbb;
+  border-left: 6px solid var(--primary-color);
+}
+
+#notify > p {
+  width: 500px;
+  line-height: 1.7;
+  font-size: 14px;
+  color: gray;
+}
+
+#notify > div span {
+  font-size: 15px;
+  cursor: pointer;
+  transition: var(--main-duration);
+}
+
+#notify > div span:hover {
+  color: var(--primary-color);
+}
+
+#notify > div span:first-child {
+  margin-right: 20px;
+}

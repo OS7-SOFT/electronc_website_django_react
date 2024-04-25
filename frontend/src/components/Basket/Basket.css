@@ -1,0 +1,83 @@
+#basket {
+  position: absolute;
+  width: 300px;
+  height: 330px;
+  background: #fff;
+  padding: 15px;
+  -webkit-box-shadow: 0px 0px 0px 2px #e4e7ed;
+  box-shadow: 0px 0px 0px 2px #e4e7ed;
+  z-index: 99;
+  right: 15px;
+  opacity: 1;
+}
+
+#basket .box-items {
+  border-bottom: 1px solid rgb(184, 182, 182);
+  height: 70%;
+}
+
+#basket .image {
+  width: 60px;
+  position: relative;
+}
+
+#basket .image > .remove {
+  cursor: pointer;
+  position: absolute;
+  width: 6px;
+  height: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+}
+
+#basket .image > .remove i {
+  font-size: 12px;
+}
+
+#basket .info {
+  margin-left: 15px;
+}
+
+#basket .info > a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: var(--main-duration);
+}
+
+#basket .info > span:first-child:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+#basket .btn-checkout {
+  display: block;
+  text-decoration: none;
+  background-color: var(--primary-color);
+  border-radius: 0;
+  margin-top: 35px;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+#basket .btn-checkout:hover {
+  outline: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: white;
+}
+
+#basket .btn-clear {
+  cursor: pointer;
+  transition: 0.3s;
+}
+#basket .btn-clear:hover {
+  color: var(--primary-color);
+}

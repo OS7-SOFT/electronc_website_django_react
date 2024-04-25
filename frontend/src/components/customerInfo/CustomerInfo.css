@@ -1,0 +1,45 @@
+#customer-info .user-box .avatar {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+}
+#customer-info .user-box .avatar > img {
+  width: 100%;
+}
+
+#customer-info .shpping-info {
+  border-top: 1px solid gray;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+#customer-info .shpping-info span {
+  font-size: 15px;
+  font-weight: 600;
+}
+#customer-info .shpping-info span:first-child {
+  margin-bottom: 8px;
+}
+
+#customer-info .shpping-info .money {
+  color: var(--primary-color);
+}
+
+#customer-info > button {
+  border-radius: 0;
+}
+
+#customer-info > button > a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+
+#customer-info > button:hover > a {
+  color: var(--primary-color);
+}

@@ -1,0 +1,49 @@
+.rate-range {
+  display: flex;
+}
+
+.rate-range .stars {
+  height: 15px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.rate-range .stars li {
+  margin-right: 10px;
+}
+
+@media (min-width: 992px) {
+  .rate-range {
+    flex-direction: column;
+  }
+  .rate-range .stars {
+    margin: 0;
+    margin-top: 5px;
+  }
+}
+
+.progress-content {
+  height: 9px;
+  width: 120px;
+  background-color: #e4e7ed;
+  position: relative;
+}
+
+.progress-content,
+.progress {
+  border-radius: 5px;
+}
+
+.progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
+.progress-content + span {
+  font-size: 15px;
+  color: #808080b3;
+  margin-left: 10px;
+}

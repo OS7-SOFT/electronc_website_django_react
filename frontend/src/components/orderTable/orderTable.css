@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+table > tbody {
+  height: 100%;
+  overflow: auto;
+}
+
+table > tbody > tr {
+  cursor: pointer;
+}
+
+table > tbody > tr i {
+  color: grey;
+
+  transition: var(--main-duration);
+}
+
+table > tbody > tr i:first-child {
+  margin-right: 20px;
+}
+
+table > tbody > tr i:first-child:hover {
+  color: #20c997;
+}
+
+table > tbody > tr i:last-child:hover {
+  color: var(--primary-color);
+}
+
+@media (max-width: 991px) {
+  table {
+    font-size: 12px !important;
+  }
+}

@@ -1,0 +1,27 @@
+#box-dashboard {
+  padding: 15px;
+}
+
+#box-dashboard > div {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+#box-dashboard .icon {
+  background-color: teal;
+  margin-right: 15px;
+}
+
+#box-dashboard .stat > span {
+  font-weight: 600;
+}
+
+#box-dashboard .stat > * {
+  color: #6c757d !important;
+}
+
+#box-dashboard .stat small {
+  font-size: 10px;
+}

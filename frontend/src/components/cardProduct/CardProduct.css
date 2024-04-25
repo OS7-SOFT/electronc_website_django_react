@@ -1,0 +1,66 @@
+.content {
+  padding: 20px;
+}
+
+.product-card {
+  transition: var(--main-duration);
+}
+
+.product-card .image {
+  height: 250px;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  border-color: var(--primary-color);
+}
+
+.product-card > div > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.product-card > div > .rate::after {
+  content: "";
+  position: absolute;
+  bottom: 13px;
+  width: 100%;
+  height: 1px;
+  background-color: #80808036;
+}
+
+.product-card > div button {
+  border: none;
+  outline: none;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: var(--main-duration);
+}
+
+.product-card > div button:hover {
+  background-color: white;
+  color: var(--primary-color);
+  outline: 2px solid var(--primary-color);
+}
+
+.product-card .icons > li > i {
+  color: #0000007d;
+}
+
+.product-card .old-price {
+  color: #a8a8a8;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.product-card .btn-favorite {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product-card .btn-favorite:hover {
+  color: var(--primary-color);
+}

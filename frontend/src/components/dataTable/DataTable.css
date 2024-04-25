@@ -1,0 +1,39 @@
+#data-table {
+  background-color: white;
+}
+
+#data-table .filter {
+  margin-bottom: 20px;
+}
+
+#data-table .filter > .content-filter > {
+  flex-grow: 1;
+}
+
+#data-table .filter > .content-filter > div {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#data-table .filter > .content-filter > div {
+  width: 200px;
+}
+
+#data-table table i {
+  color: #545454;
+  margin-right: 10px;
+  transition: var(--main-duration);
+}
+
+#data-table table i:first-child:hover {
+  color: #20c997;
+}
+
+#data-table table i:nth-of-type(2):hover {
+  color: #0d6efd;
+}
+
+#data-table table i:last-child:hover {
+  color: var(--primary-color);
+}

@@ -1,0 +1,59 @@
+#header-admin {
+  padding: 15px;
+  border-bottom: 1px solid #c3c3c3;
+  box-shadow: 1px -3px 8px 0px #000000a3;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#header-admin img {
+  width: 40px;
+  height: 40px;
+  outline: 1px solid var(--primary-color);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+#header-admin span {
+  font-size: 18px;
+}
+
+#header-admin .icons {
+  font-size: 18px;
+  color: gray;
+  transition: var(--main-duration);
+}
+
+#header-admin .icons i:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+#header-admin .icons i:first-child {
+  margin-right: 30px;
+}
+
+#header-admin .notify-bubbel {
+  content: "";
+  position: absolute;
+  left: 72px;
+  top: 21px;
+  width: 8px;
+  height: 8px;
+  border-radius: 14px;
+  background-color: #ff0000;
+  z-index: 2;
+}
+
+#header-admin .message-bubbel {
+  content: "";
+  position: absolute;
+  left: 27px;
+  top: 23px;
+  width: 8px;
+  height: 8px;
+  border-radius: 14px;
+  background-color: #ff0000;
+  z-index: 2;
+}

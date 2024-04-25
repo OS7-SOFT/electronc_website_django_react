@@ -1,0 +1,45 @@
+.shop {
+  margin: 15px 0px;
+  position: relative;
+}
+
+.shop > .body {
+  position: absolute;
+  left: 13px;
+  top: 13px;
+}
+
+.shop > .body > a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.shop > .image {
+  background-color: #e4e7ed;
+
+  height: 240px;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.shop > .image::after {
+  content: "";
+  position: absolute;
+  left: -126px;
+  top: 0;
+  height: 100%;
+  width: 94%;
+  background-color: #d10024e0;
+  transform: skew(-44deg);
+}
+
+.shop > .image > img {
+  transition: var(--main-duration);
+}
+
+.shop > .image:hover > img {
+  transform: scale(1.2) rotate(10deg);
+}

@@ -1,0 +1,36 @@
+#top-header {
+  background-color: #1e1f29;
+  font-weight: 500;
+  font-size: 14px;
+  padding-block: 8px;
+}
+
+#top-header ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+#top-header ul:first-child > li {
+  margin-right: 20px;
+}
+
+#top-header ul:first-child > li > span {
+  margin-left: 10px;
+}
+
+#top-header ul > li > a > i {
+  color: var(--primary-color);
+}
+
+#top-header ul > li > a > span {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 8px;
+  transition: var(--main-duration);
+}
+
+#top-header ul > li > a > span:hover {
+  color: var(--primary-color);
+}
