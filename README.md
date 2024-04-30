@@ -1,4 +1,4 @@
-# Electronic Products Store - README
+# Electronic Products Store
 
 ## Project Description
 The Electronic Products Store project aims to provide an easy and convenient user interface for users to purchase and review electronic products. It also includes an admin dashboard for managing products, orders, shipping processes, and product returns.
